@@ -117,6 +117,14 @@ input:focus {
 /* Donation section Styles Ends */
 
 /* Donate plan section Styles Starts */
+.donate-plan p {
+  line-height: 1.7;
+  letter-spacing: 2px;
+}
+.donate-plan h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
 .donate-info {
   margin: auto;
   text-align: center;
@@ -143,8 +151,5 @@ input:focus {
 .box h3 {
   margin: 15px 0;
 }
-.box p {
-  line-height: 1.7;
-  letter-spacing: 2px;
-}
+
 /* Donate plan section Styles Ends */
