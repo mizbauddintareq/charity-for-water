@@ -7,6 +7,10 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+p {
+  line-height: 1.7;
+  letter-spacing: 2px;
+}
 /* Hero Banner Styles Starts */
 .hero-banner {
   background-image: url(../images/main-bg.jpg);
@@ -49,8 +53,6 @@ body {
   color: white;
 }
 .banner-info p {
-  line-height: 1.7;
-  letter-spacing: 2px;
   color: white;
 }
 .main-button {
@@ -64,6 +66,7 @@ body {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 16px;
 }
 /* Hero Banner Styles Ends */
 
@@ -73,13 +76,11 @@ body {
   margin: 100px 0;
 }
 .donation-info h1 {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
 }
 .donation-info p {
   margin: 20px 0;
-  line-height: 1.7;
-  letter-spacing: 2px;
 }
 .amount {
   display: flex;
@@ -117,13 +118,10 @@ input:focus {
 /* Donation section Styles Ends */
 
 /* Donate plan section Styles Starts */
-.donate-plan p {
-  line-height: 1.7;
-  letter-spacing: 2px;
-}
+
 .donate-plan h1 {
   margin-bottom: 20px;
-  font-size: 35px;
+  font-size: 50px;
 }
 .donate-info {
   margin: auto;
@@ -155,14 +153,15 @@ input:focus {
 /* Donate plan section Styles Ends */
 
 /* Event  section Styles Ends */
-.upcomming-event {
+.upcoming-event {
   margin: 100px 0;
 }
 .event-title h1 {
   font-size: 50px;
-  color: #ff5959;
+
   margin-left: 20px;
 }
+
 .event-details {
   display: flex;
 }
@@ -187,7 +186,7 @@ input:focus {
   background-color: #ff5959;
   margin-right: 10px;
   width: 5%;
-  padding: 10px;
+  padding: 20px 10px;
   text-align: center;
   color: white;
 }
@@ -208,3 +207,32 @@ input:focus {
   border-radius: 5px;
 }
 /* Event section Styles Ends */
+
+/* Subscribe section Styles Starts */
+.subscribe-info {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.subscribe-info p {
+  margin: 20px;
+}
+.subscribe-info h1 {
+  font-size: 50px;
+}
+.subscribe {
+  margin: 40px auto;
+  width: 50%;
+  background: #fff4d6;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+}
+.subscribe input {
+  padding: 16px 100px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Subscribe section Styles Ends */
