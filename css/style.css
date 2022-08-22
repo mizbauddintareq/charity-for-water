@@ -66,3 +66,85 @@ body {
   font-weight: bold;
 }
 /* Hero Banner Styles Ends */
+
+/* Donation section Styles Styles */
+.donation-section {
+  text-align: center;
+  margin: 100px 0;
+}
+.donation-info h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.donation-info p {
+  margin: 20px 0;
+  line-height: 1.7;
+  letter-spacing: 2px;
+}
+.amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.amount-box {
+  margin: 0 20px;
+  padding: 20px;
+  background-color: #fafafa;
+  color: #707070;
+}
+#color-box {
+  border: 1px solid red;
+  background-color: #ffeeee;
+  color: #ff5959;
+}
+/* .amount-input {
+ 
+  text-align: center;
+} */
+.amount-input input {
+  margin: 20px 0 10px;
+  padding: 10px 200px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  text-align: center;
+  font-size: 16px;
+  border-color: #707070;
+}
+input:focus {
+  outline: none;
+}
+/* Donation section Styles Ends */
+
+/* Donate plan section Styles Starts */
+.donate-info {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.plan-box {
+  display: flex;
+  margin: 0 100px;
+}
+#plan-1 {
+  background-color: #4f9da61a;
+}
+#plan-2 {
+  background-color: #ff59591a;
+}
+#plan-3 {
+  background-color: #fff4d6;
+}
+.box {
+  margin: 50px 20px;
+  padding: 60px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box h3 {
+  margin: 15px 0;
+}
+.box p {
+  line-height: 1.7;
+  letter-spacing: 2px;
+}
+/* Donate plan section Styles Ends */
