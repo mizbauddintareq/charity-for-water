@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.8ms;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Hero Banner Styles Starts */
+.hero-banner {
+  background-image: url(../images/main-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+.logo h1 {
+  font-size: 45px;
+  color: tomato;
+}
+.menu-item ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+}
+.menu-item ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  color: tomato;
+}
+
+.banner-info {
+  text-align: center;
+  margin: 200px auto;
+  width: 60%;
+}
+.banner-info h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.banner-info p {
+  line-height: 1.7;
+  letter-spacing: 2px;
+  color: white;
+}
+.main-button {
+  padding: 16px 30px;
+  background-color: #ff5959;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+.main-button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+/* Hero Banner Styles Ends */
