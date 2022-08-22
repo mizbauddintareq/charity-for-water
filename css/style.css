@@ -236,3 +236,20 @@ input:focus {
 }
 
 /* Subscribe section Styles Ends */
+
+/* Footer section Styles Ends */
+footer {
+  margin-top: 60px;
+  background-color: black;
+  text-align: center;
+  padding: 60px;
+}
+footer h1 {
+  color: #ff5959;
+  font-size: 30px;
+}
+footer p {
+  margin-top: 20px;
+  color: white;
+}
+/* Footer section Styles Ends */
